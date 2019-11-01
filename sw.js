@@ -14,3 +14,8 @@ self.addEventListener('fetch', (event) => {
     console.log('Происходит запрос на сервер');
     console.dir(event);
 });
+
+self.addEventListener('message', (event) => {
+    console.log('Сообщение');
+    console.dir(event);
+});
