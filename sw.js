@@ -1,4 +1,4 @@
-console.log('sw.js загружен')
+console.log('sw.js загружен (но уже новый)')
 
 self.addEventListener('install', (event) => {
     console.log('Установлен');
