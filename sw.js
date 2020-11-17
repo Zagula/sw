@@ -5,6 +5,8 @@ self.addEventListener('install', (event) => {
     console.dir(event);
 });
 
+/* wrong */
+
 self.addEventListener('activate', (event) => {
     console.log('Активирован');
     console.dir(event);
